@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #82d1dd;
+  background: linear-gradient(to bottom, #82d1dd, #000000);
+  overflow: hidden;
+}
+
+.drop {
+  background: linear-gradient(to bottom, #0d343a, #ffffff99);
+  width: 1px;
+  height: 89px;
+  position: absolute;
+  bottom: 200px;
+  -webkit-animation: fall 0.63s linear infinite;
+  -moz-animation: fall 0.63s linear infinite;
+}
+
+@-webkit-keyframes fall {
+  to {
+    margin-top: 900px;
+  }
+}
+
+@-moz-keyframes fall {
+  to {
+    margin-top: 900px;
+  }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login {
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    background: url("daima.jpeg");
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  form {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+  }
+  
+  h1 {
+    font-weight: normal;
+    font-size: 30px bold;
+    text-shadow: 0px, 0px, 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+    margin-top: 50px;
+    color: black;
+    margin-left: 120px;
+  }
+  
+  label {
+    color: rgba(225, 225, 225, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+  }
+  
+  input {
+    background: rgba(225, 225, 225, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  button {
+    background: rgb(45, 126, 231);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
